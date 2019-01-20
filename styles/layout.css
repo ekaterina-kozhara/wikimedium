@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css?family=PT+Sans+Caption:400,700&subset=cyrillic');
+
+body {
+font-family: 'PT Sans Caption', sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+}
+
+nav .logo {
+  display: block;
+  width: 180px;
+  height: 16px;
+  background-image: url(../images/logo.svg);
+  background-size: cover;
+}
+nav .about {
+  font-size: 14px;
+  line-height: 50px;
+  color: rgba(0,0,0,.2);
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  min-width: 768px;
+  background-color: white;
+  box-shadow: 0 2px 4px 0 rgba(0,0,0,.05);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 11px;
+  padding: 20px;
+  margin-right: 40px;
+}
+.step1 {
+  padding-top: 50px;
+}
